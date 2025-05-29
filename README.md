@@ -61,7 +61,6 @@ Alternatively, create it in Colab:
 4. Upload and run the ornithopter_cfd.py script:
 
    %%writefile ornithopter_cfd.py
-# Paste the contents of ornithopter_cfd.py here
 !python ornithopter_cfd.py
 
 5. Download outputs:
