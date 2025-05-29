@@ -131,8 +131,3 @@ MIT License.
 ## Acknowledgements
 Built with assistance from Grok 3, created by xAI.
 Inspired by ornithopter fluid dynamics research.
-
-## Contact
-For questions or support, please open an issue or contact excel3227@gmail.com
-
-
