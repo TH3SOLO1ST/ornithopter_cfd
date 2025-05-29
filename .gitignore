@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and other tools
+.vscode/
+.idea/
+
+# Simulation outputs
+ornithopter_results.png
+ornithopter_data.npz
