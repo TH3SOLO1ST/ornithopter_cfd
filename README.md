@@ -74,7 +74,7 @@ files.download("ornithopter_data.npz")
 !cp ornithopter_results.png /content/drive/MyDrive/
 !cp ornithopter_data.npz /content/drive/MyDrive/
 
-##Local Setup
+## Local Setup
 1. Clone the repository:
 
 git clone https://github.com/your-username/ornithopter-cfd.git
@@ -90,13 +90,13 @@ pip install numpy scipy matplotlib jax jaxlib
 python ornithopter_cfd.py
 
 
-##Usage
+## Usage
 
   Edit config.json to adjust simulation parameters (e.g., grid size, flapping frequency, viscosity).
   Run the script to generate ornithopter_results.png (plots) and ornithopter_data.npz (data).
   Analyze the plots for lift, thrust, and velocity field behavior.
 
-##Configuration
+## Configuration
 The config.json file contains the following parameters:
 
   nx, ny: Grid dimensions.
@@ -110,29 +110,29 @@ The config.json file contains the following parameters:
   nu: Kinematic viscosity (m²/s).
   dt: Time step (s).
 
-##Outputs
+## Outputs
   ornithopter_results.png: Three subplots showing:
     Lift vs. time.
     Thrust vs. time.
     Velocity field and deformed mesh.
   ornithopter_data.npz: Saved arrays for lift, thrust, velocity (u, v), and mesh coordinates (X, Y).
 
-##Troubleshooting
+## Troubleshooting
   Mesh Coordinates Out of Bounds: Reduce h or alpha_max_deg in config.json if warnings appear.
   Empty Plots: Check console output for warnings (e.g., "Velocity field is invalid") and share logs if needed.
   Dependency Issues: Re-run the installation commands.
 
-##Contributing
+## Contributing
 Feel free to fork this repository, submit issues, or propose enhancements (e.g., vorticity plots, 3D solver). Pull requests are welcome!
 
-##License
+## License
 MIT License.
 
-##Acknowledgements
+## Acknowledgements
 Built with assistance from Grok 3, created by xAI.
 Inspired by ornithopter fluid dynamics research.
 
-##Contact
+## Contact
 For questions or support, please open an issue or contact excel3227@gmail.com
 
 
